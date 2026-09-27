@@ -3,7 +3,7 @@ name: workflow-compression
 description: "Use this skill whenever the user asks to make a flow faster, simpler, shorter, or 'one tap'; when a wizard, checkout, onboarding, setup, transfer, form, or CLI prompt sequence takes too many steps, screens, questions, confirmations, or waits; or when users re-enter information the software already knows. Maps the workflow step by step, classifies friction (redundant input, unnecessary choice, repeated configuration, navigation tax, confirmation tax, serial work, memory failure, waiting tax, dead ends, expert tax, interruptions, hidden status), and removes work the software could do while preserving safety and meaningful human judgment. Always counts steps before and after."
 license: MIT
 metadata:
-  version: "0.6.0"
+  version: "0.6.1"
   collection: experience-skills
 ---
 
@@ -46,6 +46,9 @@ Read that file (the full rules and evidence levels) before a full review, repair
 - **Load depth conditionally.** A direction, composition, workflow, control, state, motion, or
   anti-slop branch must load its required reference before recommendation or edit; unrelated work
   must not load the whole library.
+- **A large specification is a bigger evidence base, not a bigger checklist.** Preserve exact
+  numbers, exceptions, and locked decisions; keep recommendations, examples, and deferred items
+  from becoming requirements; compress for reasoning, re-open the source for precision.
 <!-- core-brief:end -->
 
 ## Use this when

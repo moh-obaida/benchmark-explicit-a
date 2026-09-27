@@ -3,7 +3,7 @@ name: visual-identity
 description: "Use this skill whenever a product needs a visual direction or stronger personality, energy, color behavior, or identity across its working screens and states. Derive expression from the user job, core instrument, product mechanics, and emotional target. Choose a look contract with structural hierarchy, chroma and contrast behavior, typographic attitude, geometry, rhythm, and a causal signature response; preserve existing coherent identity and compare Atlas options only when useful."
 license: MIT
 metadata:
-  version: "0.6.0"
+  version: "0.6.1"
   collection: experience-skills
 ---
 
@@ -48,6 +48,9 @@ Read that file (the full rules and evidence levels) before a full review, repair
 - **Load depth conditionally.** A direction, composition, workflow, control, state, motion, or
   anti-slop branch must load its required reference before recommendation or edit; unrelated work
   must not load the whole library.
+- **A large specification is a bigger evidence base, not a bigger checklist.** Preserve exact
+  numbers, exceptions, and locked decisions; keep recommendations, examples, and deferred items
+  from becoming requirements; compress for reasoning, re-open the source for precision.
 <!-- core-brief:end -->
 
 ## Use this when

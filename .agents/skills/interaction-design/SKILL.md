@@ -3,7 +3,7 @@ name: interaction-design
 description: "Use this skill whenever controls, inputs, forms, pickers, buttons, confirmations, or keyboard and touch behavior are designed or reviewed: especially when someone proposes a custom, animated, or 'more fun' version of a standard control (segmented code boxes, bespoke dropdowns, bouncing digits), when actions are confusing, slow, error-prone, or inaccessible, when actions restate context the system already knows, or when building forms and live-control surfaces. Covers affordance, action hierarchy, primary/secondary/destructive actions, inline edit, direct manipulation, confirmation versus undo, disabled states, feedback, and power-user paths. Default stance: do not reinvent familiar interactions without user value."
 license: MIT
 metadata:
-  version: "0.6.0"
+  version: "0.6.1"
   collection: experience-skills
 ---
 
@@ -46,6 +46,9 @@ Read that file (the full rules and evidence levels) before a full review, repair
 - **Load depth conditionally.** A direction, composition, workflow, control, state, motion, or
   anti-slop branch must load its required reference before recommendation or edit; unrelated work
   must not load the whole library.
+- **A large specification is a bigger evidence base, not a bigger checklist.** Preserve exact
+  numbers, exceptions, and locked decisions; keep recommendations, examples, and deferred items
+  from becoming requirements; compress for reasoning, re-open the source for precision.
 <!-- core-brief:end -->
 
 ## Use this when

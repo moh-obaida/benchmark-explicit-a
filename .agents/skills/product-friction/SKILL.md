@@ -3,7 +3,7 @@ name: product-friction
 description: "Use this skill whenever a product or area feels hard to use overall, users get lost or keep asking the same support questions, terminology or duplicate concepts confuse people, features pile up without getting easier, an admin, settings, or setup area is being redesigned, or a whole product or area needs an audit rather than one flow. Finds and ranks product-level friction: terminology, cognitive load, discoverability, lost context, information architecture, dead ends, status ambiguity, unnecessary modes, inconsistent behavior, trust and transparency, first-use burden, and expert burden, in a prioritized friction ledger."
 license: MIT
 metadata:
-  version: "0.6.0"
+  version: "0.6.1"
   collection: experience-skills
 ---
 
@@ -48,6 +48,9 @@ Read that file (the full rules and evidence levels) before a full review, repair
 - **Load depth conditionally.** A direction, composition, workflow, control, state, motion, or
   anti-slop branch must load its required reference before recommendation or edit; unrelated work
   must not load the whole library.
+- **A large specification is a bigger evidence base, not a bigger checklist.** Preserve exact
+  numbers, exceptions, and locked decisions; keep recommendations, examples, and deferred items
+  from becoming requirements; compress for reasoning, re-open the source for precision.
 <!-- core-brief:end -->
 
 ## Use this when

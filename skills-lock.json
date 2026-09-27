@@ -5,91 +5,91 @@
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/anti-ai-slop/SKILL.md",
-      "computedHash": "36a29464c1f82b7adbca1df3be4899e2f8219892040f2acc0372b7ad4463d0fa"
+      "computedHash": "fc91281854acd1474014618a91d7fc650db7cd957f43eb5c46d9304d37867401"
     },
     "anti-slop-ui": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/anti-slop-ui/SKILL.md",
-      "computedHash": "1e27a6ab61257c607845f1bc3e12604f71910cdf14c0c11321100f7582493da9"
+      "computedHash": "3d233abe4f959cdc47893ec4ab5b4b8f3ef0c5fb454f6f8dc2cebb505792718a"
     },
     "composition-repair": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/composition-repair/SKILL.md",
-      "computedHash": "39bffa35aee98989fa45daf91cbedefc5f7034372b8863040e078630a5839620"
+      "computedHash": "f7ac786daf4208529446f037313c022077feb0918af66b5f26ddd70a770366c2"
     },
     "critical-review": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/critical-review/SKILL.md",
-      "computedHash": "de931171ca1dad383b80c30fdc52adc9737a342105d0c0ccbb791adc701916fd"
+      "computedHash": "b70a260e53ca93972602bdf6df30938a280551b7682711d6cf1c72b3f634f7aa"
     },
     "empty-state-design": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/empty-state-design/SKILL.md",
-      "computedHash": "8586d7ee40b067be3a2db2a2fc7d38fa09a9c201a3da335384590aed7603ce25"
+      "computedHash": "c41f14ce7e1430cac7ccaba4c4277dfd7c0c9c40b753ae11c826714fc922ec00"
     },
     "experience-architect": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/experience-architect/SKILL.md",
-      "computedHash": "ee861e3121b6faa075fc887f40f4e20878663fc3d27b4ec7ed7d6a1367797601"
+      "computedHash": "6ad427fa47ad9ba6199dba7664b40ffdb0fa79823dc0de4e2444fcc4fd49323d"
     },
     "interaction-design": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/interaction-design/SKILL.md",
-      "computedHash": "bb2c87171932563d669dbc45e1798bcfe5fff1396a05287a2c2e233106570215"
+      "computedHash": "dda13d2c1d16a6c5a16a9d558d8d30ffa2f8982d61bcdba1dbd6542bcc4a8998"
     },
     "interface-forensics": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/interface-forensics/SKILL.md",
-      "computedHash": "df94203d6c646070da18186d1a063e028cadb4738e21765c5edf2e8f5280014e"
+      "computedHash": "03d5f6ec780c50859d34c163dc8d519d758f5f12379cb26cce27e6ce67ef5fdc"
     },
     "motion-design": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/motion-design/SKILL.md",
-      "computedHash": "d56318607c3f0895dbf9dfa0d31ade8f4cd53e49d207f045f0f308655b9c98bd"
+      "computedHash": "086187af077476c25faf3f78ade171a50de7e908fbe3b441f7cbedf2e9b4447f"
     },
     "product-friction": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/product-friction/SKILL.md",
-      "computedHash": "da53db98e3d202ebf86564afdc53f6b7a1e4e190f645c3a42d96fd5a441d173b"
+      "computedHash": "42a0e6c0990d185667ac362cb68eedea1c526e4e1170eb8350fdeb774215473a"
     },
     "responsive-validation": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/responsive-validation/SKILL.md",
-      "computedHash": "3e54c4854679f93b396152db8ad7d328b19c4b7f52705161c9b5a7547353dfa1"
+      "computedHash": "947121b5aea2106e544d57a8d8f81c1484794b14fd74b0ae339106366845d915"
     },
     "state-design": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/state-design/SKILL.md",
-      "computedHash": "c782848e8965bb75089201ed1f99a4be618b6a9bc9c03039fa0bd3a8918b5264"
+      "computedHash": "f174df7c446f2546bef46e7d37baca74592ec95ac0b648cb4181cd376957cf49"
     },
     "use-all-skills": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/use-all-skills/SKILL.md",
-      "computedHash": "3ec8af67281bf2b7c18a222c7605a86dcce16f04634d289789b0aceb4c0e6e5d"
+      "computedHash": "9824b86431ad8df1a9342f277f1a7a2eb66cc4924e17b8d64aeb65fb3a01c384"
     },
     "visual-identity": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/visual-identity/SKILL.md",
-      "computedHash": "686803008246936ecacf52659458698f07ea052d54759a262597c3f653afc07d"
+      "computedHash": "9f5d67cf76907c7cd8cd8a410c7f82396245d9bbc6a74e665a90ed22fa6d1249"
     },
     "workflow-compression": {
       "source": "moh-obaida/experience-skills",
       "sourceType": "github",
       "skillPath": "skills/workflow-compression/SKILL.md",
-      "computedHash": "c2c39c6ad49c164793cd8aa4ac5081e74c58085184eba08b392ae1366276b73b"
+      "computedHash": "04a707bff6dfe2b4780cfe5da3e2d1c8d1828edda59bbc01292c4ae1ff6b6569"
     }
   }
 }
