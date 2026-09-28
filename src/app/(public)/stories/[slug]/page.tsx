@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCurrentUser } from "@/lib/auth";
 import { ageLabel, arNumber, minutesLabel } from "@/lib/format";
-import { isFavorite } from "@/lib/queries";
+import { getAuthorBySlug, isFavorite } from "@/lib/queries";
 import { extraImages, getStoryBySlug, moreFromAuthor, relatedStories, similarStories } from "@/lib/recommend";
 import { StoryList } from "@/components/StoryCard";
 import { ViewBeacon } from "@/components/ViewBeacon";
@@ -20,6 +20,7 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
   if (!story) notFound();
   const user = await getCurrentUser();
   const saved = user ? isFavorite(user.id, story.id) : false;
+  const author = story.authorSlug ? getAuthorBySlug(story.authorSlug) : null;
   const related = relatedStories(story.id);
   const fromAuthor = story.authorId ? moreFromAuthor(story.authorId, story.id) : [];
   const taken = new Set([story.id, ...related.map((item) => item.id), ...fromAuthor.map((item) => item.id)]);
@@ -121,10 +122,13 @@ export default async function StoryPage({ params }: { params: Promise<{ slug: st
               </a>
             </p>
           ) : null}
-          {story.authorSlug ? (
-            <Link className="author-box" href={`/authors/${story.authorSlug}`}>
+          {author ? (
+            <Link className="author-box" href={`/authors/${author.slug}`}>
+              {author.imageId ? (
+                <img src={`/api/media/${author.imageId}`} alt="" width={72} height={72} />
+              ) : null}
               <span>
-                <strong>{story.authorName}</strong>
+                <strong>{author.name}</strong>
                 <span className="muted"> المزيد من هذا المؤلف</span>
               </span>
             </Link>

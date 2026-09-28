@@ -62,7 +62,7 @@ h3 { font-size: 1.05rem; line-height: 1.45; font-weight: 700; }
   position: sticky;
   top: 0;
   z-index: 4;
-  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
 .header-row {
@@ -305,8 +305,9 @@ a.btn { text-decoration: none; display: inline-flex; align-items: center; }
   border-radius: var(--radius);
   padding: 1rem;
 }
-.author-box { display: grid; grid-template-columns: 72px 1fr; gap: .8rem; margin-top: 1.4rem; max-width: 38rem; text-decoration: none; }
-.author-box img { width: 72px; height: 72px; object-fit: cover; border-radius: var(--radius-sm); }
+.author-box { display: flex; align-items: center; gap: .8rem; margin-top: 1.4rem; width: fit-content; max-width: 100%; text-decoration: none; }
+.author-box img { width: 72px; height: 72px; object-fit: cover; border-radius: var(--radius-sm); flex: none; }
+.author-box > span { min-width: 0; }
 .banner { display: grid; grid-template-columns: 160px 1fr; gap: 1rem; align-items: center; }
 .announce { background: var(--cream); }
 .pager { display: flex; gap: .6rem; align-items: center; margin-top: 1.2rem; }
@@ -417,7 +418,7 @@ progress { width: 100%; height: .45rem; accent-color: var(--focus); }
   .header-row { flex-wrap: wrap; padding-block: .4rem; }
   .mobile-panel { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: .5rem; display: grid; }
   .mobile-panel a, .mobile-panel summary { min-height: 44px; display: flex; align-items: center; text-decoration: none; }
-  .feature, .feature-main, .story-layout, .form-layout, .banner, .author-box, .admin-shell {
+  .feature, .feature-main, .story-layout, .form-layout, .banner, .admin-shell {
     grid-template-columns: 1fr;
   }
   .form-index { position: static; display: flex; gap: .7rem; overflow-x: auto; }
