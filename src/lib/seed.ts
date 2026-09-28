@@ -51,8 +51,8 @@ export function ensureSeed(db: Sql) {
   if (existing?.value === "1") return;
 
   const now = new Date().toISOString();
-  const email = (process.env.ADMIN_EMAIL || "admin@yara3.local").trim().toLowerCase();
-  const password = process.env.ADMIN_PASSWORD || "yara3-local-admin";
+  const email = (process.env.ADMIN_EMAIL || "admin@yara.com").trim().toLowerCase();
+  const password = process.env.ADMIN_PASSWORD || "yara3admin12";
   const adminId = crypto.randomUUID();
 
   db.exec("BEGIN");
