@@ -5,9 +5,10 @@ import { getSettings } from "@/lib/settings";
 import "@/styles/globals.css";
 
 const tajawal = Tajawal({
-  subsets: ["arabic", "latin"],
+  subsets: ["arabic"],
   weight: ["400", "500", "700"],
   display: "swap",
+  preload: true,
   variable: "--font-tajawal",
 });
 

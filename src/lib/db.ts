@@ -1,7 +1,10 @@
 import fs from "fs";
 import path from "path";
 import { DatabaseSync } from "node:sqlite";
+import { dataDir } from "./paths";
 import { ensureSeed } from "./seed";
+
+export { dataDir, mediaDir } from "./paths";
 
 const globalForDb = globalThis as unknown as { yaraDb?: DatabaseSync };
 
@@ -176,16 +179,6 @@ CREATE INDEX IF NOT EXISTS idx_stories_pub ON stories(published, publish_at);
 CREATE INDEX IF NOT EXISTS idx_stories_author ON stories(author_id);
 CREATE INDEX IF NOT EXISTS idx_activity_story ON activity(story_id, created_at);
 `;
-
-export function dataDir() {
-  return path.join(process.cwd(), "data");
-}
-
-export function mediaDir() {
-  const dir = path.join(dataDir(), "media");
-  fs.mkdirSync(dir, { recursive: true });
-  return dir;
-}
 
 export function getDb(): DatabaseSync {
   if (!globalForDb.yaraDb) {

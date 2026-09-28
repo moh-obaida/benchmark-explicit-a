@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { DatabaseSync } from "node:sqlite";
+import { mediaDir } from "./paths";
 import { hashPassword } from "./password";
 import { toneHex } from "./palette";
 
@@ -36,8 +37,7 @@ function coverSvg(tone: string, variant: number) {
 function writeCover(svg: string, alt: string, db: Sql) {
   const id = crypto.randomUUID();
   const filename = `${id}.svg`;
-  const dir = path.join(process.cwd(), "data", "media");
-  fs.mkdirSync(dir, { recursive: true });
+  const dir = mediaDir();
   const buf = Buffer.from(svg, "utf8");
   fs.writeFileSync(path.join(dir, filename), buf);
   db.prepare(

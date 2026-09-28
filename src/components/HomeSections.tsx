@@ -8,7 +8,7 @@ import type { ResolvedSection } from "@/lib/sections";
 export function HomeSections({ sections }: { sections: ResolvedSection[] }) {
   return (
     <>
-      {sections.map((section, index) => {
+      {sections.map((section) => {
         if (section.sectionType === "hero") {
           return (
             <section className="hero" key={section.id} aria-labelledby={`s-${section.id}`}>
@@ -68,7 +68,7 @@ export function HomeSections({ sections }: { sections: ResolvedSection[] }) {
                 </div>
               ) : null}
               {section.sectionType === "stories" ? (
-                <StoryList stories={section.stories} layout={section.layout} eager={index < 3} />
+                <StoryList stories={section.stories} layout={section.layout} />
               ) : null}
               {section.sectionType === "authors" ? (
                 <div className="cat-grid">
